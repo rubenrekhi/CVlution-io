@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
+
 function Home() {
   const [inputText, setInputText] = useState("");
   const navigate = useNavigate();
